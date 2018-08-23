@@ -1,0 +1,379 @@
+1) d++
+instance variables--> default values
+local variables can't have default values
+
+
+
+
+2)s
+
+
+
+3)String(aravind)
+
+    
+replace a-->*-->*r*vind
+substring(2,4)--> *v
+index(i)--> '-1'--> bcoz not present
+
+
+
+4)
+
+
+
+5)class loader---> lesson-05
+    prevents a class that is loaded off the n/w from pretending to be one of the standard
+
+
+
+
+6)Static variables lives basially as long as their class lives
+
+   instance variable-->  as long as their object lives
+
+   Local variables-->   as long as their method is on stack,however they are temporarily unavailable if they invoke another methods
+
+  Block variavles(in a for loop/stmnt)--->until the block ends 
+
+
+
+7)Anonymous inner classes -->( abstracts and interfaces)  
+
+8)
+
+
+
+9)java interfaces can be used by Collections.sort() to sort user defined objects stored in  a list?
+
+---> comparator
+
+10)Tree map--> sorted manner & key-value pair
+   Hash map--> random/no sorted & key-value pair
+
+
+11)  List<integer> listint=Arrays.asList(10,20,20,40,50,60);
+    syso(listint.stream().reduce({prev,current})->prev+current));
+
+
+Ans--> optional[210]
+
+optional--> wrapper object
+
+        ---> represents single object not list
+
+new feature added in jdk 1.8
+
+mostly stream operations return optional object
+
+
+12)Set hashSet = new HashSet();
+
+   hashSet.add(1);-->integer
+    hashSet.add(null);
+     hashSet.add(null);
+    hashSet.add("1");-->String
+Ans: {null,1,1}
+-->Allows one null value,
+--> Any set will not allow duplicates
+-->Since generics aren't there a warning will come
+
+
+13)strArr ={"one","two","three","four","four","five",}
+
+tree set--> set eliminates duplicates
+tree--> returns sorted(alphabetically)
+
+
+{five,four one,three,two}
+
+14)Serialization
+
+
+15)Supplier<String>supplier=()->"Welcome to java world";
+   Predicate<String>pred =(str1)->str1.length()>10;
+
+
+syso(pred.test(supplier.get()));
+
+
+ans: true
+
+
+16)hollow wow world 
+
+Welcome-->not because it has Capital "W"
+
+17)Consumer<List<String>>
+
+
+        .add(Hello)
+        .add(World)
+        
+
+reverse-> world hello
+
+
+18) Bi Function
+
+
+19)Serializable isn't a functional interface
+
+  functional interface--> Single Abstract method
+                            apart from functional method it can be static or default
+
+
+
+
+20)Serializable is a marker interface--> it don't have any methods
+
+
+
+21) psvm(){int a=Int.parse(args[0])}
+
+
+command line arguments--> java demo2 10 hello 
+
+
+
+
+22)checked exceptions &  unchecked exception
+
+     parent exception        parent runtime exception
+
+
+
+23)nchecked Exception List
+ArrayIndexOutOfBoundsException
+ClassCastException
+IllegalArgumentException
+IllegalStateException
+NullPointerException
+NumberFormatException
+AssertionError
+ExceptionInInitializerError
+StackOverflowError
+NoClassDefFoundError
+
+Checked Exception List
+Exception
+IOException
+FileNotFoundException
+ParseException
+ClassNotFoundException
+CloneNotSupportedException
+InstantiationException
+InterruptedException
+NoSuchMethodException
+NoSuchFieldException
+
+
+25)Thread.currentThread.getName();
+
+26)serialization
+
+--> an instance variable not to be serialised must be declared as  transient keyword--> that is it cant be persist
+
+--> deSerialization is the process of reconstructing the object from the deserialized
+
+
+27)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+  
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
